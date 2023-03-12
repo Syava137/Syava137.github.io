@@ -6,13 +6,13 @@
 }
 
 
-/* body{ 
+body{ 
     -moz-user-select: none;  
     -webkit-user-select: none; 
     -ms-user-select: none; 
     -khtml-user-select: none;  
     user-select: none; 
-} */
+}
 
 .container{
     margin: 0 auto;
@@ -22,6 +22,8 @@
 
 .question-form{
     margin: 200px auto 0px;
+    display: flex;
+    flex-direction: column;
     border-radius: 10px;
     border: 3px solid gray;
     width: 70%;
@@ -32,10 +34,7 @@
 progress{
     height: 30px;
     width: 100%;
-}
-
-.question{
-    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 .answer{
@@ -56,4 +55,30 @@ progress{
     background-color: gray;
     color: antiquewhite;
     transition: all ease .3s;
+}
+
+
+.btnRestart{
+    padding: 10px;
+    margin:  5px 0px;
+    background-color: antiquewhite;
+    cursor: pointer;
+    color: gray;
+    border-radius: 10px;
+    border: 3px solid gray;
+}
+
+.btnRestart:hover{
+    background-color: gray;
+    color: antiquewhite;
+    transition: all ease .3s;
+}
+
+
+.itsInput{
+    height: 30px;
+}
+
+img{
+    margin-bottom: 15px;
 }
