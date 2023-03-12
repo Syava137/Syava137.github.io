@@ -185,11 +185,11 @@ let checkProgress = ()=>{
 
         let ocenka = points/questions.length*100
 
-        if (ocenka <30){
+        if (ocenka <50){
             ocenka = 2
         }else if (ocenka < 70){
             ocenka = 3
-        }else if (ocenka <90){
+        }else if (ocenka <84){
             ocenka = 4
         }else{
             ocenka = 5
