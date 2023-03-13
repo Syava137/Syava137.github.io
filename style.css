@@ -21,7 +21,7 @@ body{
 }
 
 .question-form{
-    margin: 200px auto 0px;
+    margin: 130px auto 0px;
     display: flex;
     flex-direction: column;
     border-radius: 10px;
@@ -79,6 +79,23 @@ progress{
     height: 30px;
 }
 
-img{
+.resourceForImg{
     margin-bottom: 15px;
 }
+
+.img_logo{
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+}
+
+.title{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: x-large;
+    text-align: center;
+}
+
