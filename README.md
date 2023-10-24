@@ -1,2 +1,2 @@
 # Math quiz
-\n JavaScript
+JavaScript
